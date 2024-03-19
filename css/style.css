@@ -680,9 +680,10 @@ a:focus {
 }
 
 .footer_bg {
-  background-image: url(../images/footer-Bgpop.png) no-repeat center center cover;
-  background-size:flex;
+  background-image: url(../images/footer-Bgpop.png) no-repeat center cover;
+  background-size:cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: right top;
   padding-top: 250px;
 }

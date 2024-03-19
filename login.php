@@ -13,7 +13,7 @@
 
     <div class="container" id="container">
         <div class="form-container sign-up">
-            <form>
+            <form >
                 
                 <h1>Create Account</h1>
                 <div class="social-icons">
