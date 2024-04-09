@@ -61,9 +61,10 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 700px;
+  height: 710px;
   position:relative;
-  background-image: url(../images/Bgpop.png);
+ background-image: url(../images/newbg.png);
+/* background-color: #041858;*/
   background-size:100%;
   background-position:100%;
 }
@@ -77,6 +78,7 @@ body {
 .sub_page .footer_bg {
   background: none;
   background-color: #041858;
+  background-image: url(../images/footer-bg.png);
   padding-top: 45px;
 }
 
@@ -234,7 +236,7 @@ a:focus {
 .slider_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-items:center ;
 }
 
 .slider_section div#carouselExampleIndicators {
@@ -317,6 +319,8 @@ a:focus {
 
 .slider_section .carousel_btn-container .carousel-control-prev,
 .slider_section .carousel_btn-container .carousel-control-next {
+  display: inline-block;
+  vertical-align: middle;
   position: relative;
   width: 45px;
   height: 45px;
@@ -328,6 +332,9 @@ a:focus {
   background-position: center;
   background-color: #d8bf36;
 }
+
+
+
 
 .slider_section .carousel_btn-container .carousel-control-prev:hover,
 .slider_section .carousel_btn-container .carousel-control-next:hover {
@@ -680,12 +687,13 @@ a:focus {
 }
 
 .footer_bg {
-  background-image: url(../images/footer-Bgpop.png) no-repeat center cover;
+  /*background-image: url(../images/footer-bg.png) no-repeat center cover;*/
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: right top;
+  background-position: center;
   padding-top: 250px;
+  background-color: #041858;
 }
 
 .contact_section {
